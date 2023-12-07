@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="travelling, travel, ukraine, kyiv, food, food festival" />
+
+    <!--Bootstrap CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <!-- Css link -->
+    <link rel="stylesheet" href="assets/css/shop-cart.css" />
+
+    <!--Fontawesome-->
+    <script src="https://kit.fontawesome.com/0f9cf7d513.js" crossorigin="anonymous"></script>
+    <title>Kyiv Food Festival</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light fw-bold">
+            <div class="container-fluid">
+                <a class="navbar-brand me-5 ms-2" href="index.html">Logo</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="events.html">Events</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact-us.html">Contact Us</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav ms-auto me-5 mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="shop.html">Shop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link  active" aria-current="cart" href="cart.html">Cart</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container-fluid shop-cart-container">
+        <h2>Shopping Cart</h2>
+        <div class="cart">
+            <ul id="cart-items"></ul>
+            <p>Total: €<span id="cart-total">0</span></p>
+        </div>
+    </div>
+    <footer class="footer text-center pt-4 mt-auto">
+        <a href="https://twitter.com/home" target="_blank" aria-label="Twitter" class="social-link m-4"><i
+                class="fa-brands fa-x-twitter fa-2x"></i></a>
+
+        <a href="https://www.facebook.com/" target="_blank" aria-label="Facebook" class="social-link m-4"><i
+                class="social-media fa-brands fa-facebook-f fa-2x"></i></a>
+        <a href="https://www.instagram.com/" target="_blank" aria-label="Instagram" class="social-link m-4"><i
+                class="social-media fa-brands fa-instagram fa-2x"></i></a>
+        <p class="m-0">© 2023 Slava Kondriianenko.</p>
+    </footer>
+    <script src="assets/js/cart.js"></script>
+</body>
+
+</html>
